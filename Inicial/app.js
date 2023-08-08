@@ -19,7 +19,7 @@ switcher.addEventListener('click', function(){
 
     // Verifica se a classe 'light-theme' está presenteaaaaa
     if (className == "light-theme") {
-        // Se 'light-theme' estiver presente, muda o texto do botão para 'dark'aaaaaaaa
+        // Se 'light-theme' estiver presente, muda o texto do botão para 'dark'aaaaaaaaa
         this.textContent = "dark";
     }
     else {
