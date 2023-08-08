@@ -1,5 +1,10 @@
 'use strict';
 
+'''
+git add Inicial/app.js
+git commit --date="2023-08-08T12:00:00Z" -m "Meu commit"
+'''
+
 // Seleciona o botão com a classe .btn e atribui à variável switcheraaaaaaaa
 const switcher = document.querySelector('.btn');
 let direcao = 1;
