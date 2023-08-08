@@ -14,7 +14,7 @@ switcher.addEventListener('click', function(){
     // Alterna a classe 'dark-theme' no elemento <body>aaaaaaa
     document.body.classList.toggle('dark-theme');
 
-    // Obtém a lista de classes do elemento <body>aaaaaaaaaaaaaaaa
+    // Obtém a lista de classes do elemento <body>aaaaaaaaaaaaaaaaa
     var className = document.body.className;
 
     // Verifica se a classe 'light-theme' está presenteaaaaa
