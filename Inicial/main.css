@@ -1,0 +1,87 @@
+/* Definição de variáveis CSS no :root */
+:root {
+    --green: #00ff00;     /* Define uma variável --green para a cor verde */
+    --purple: #53018a;
+    --white: #ffffff;     /* Define uma variável --white para a cor branca */
+    --black: #000000;     /* Define uma variável --black para a cor preta */
+    --fontColor: color; /* Define uma variável --fontColor e a iguala à cor preta (pode ser ajustada) */
+    --bg: color;   /* Define uma variável --bg e a iguala à cor branca (pode ser ajustada) */
+    --btnColor: color;
+    --btnBg: color;
+}
+
+/* Estilos aplicados a todos os elementos na página */
+* {
+    color: var(--fontColor); /* Define a cor do texto com base na variável --fontColor */
+    font-family: helvetica;  /* Define a fonte para todos os elementos como "helvetica" */
+}
+
+/* Estilos específicos para o corpo da página (body) */
+body {
+    background: var(--bg); /* Define o plano de fundo com base na variável --bg */
+}
+
+/* Estilos para elementos não ordenados (ul) */
+ul {
+    font-family: helvetica; /* Define a fonte para elementos ul como "helvetica" */
+}
+
+/* Estilos para itens de lista (li) */
+li {
+    list-style: circle; /* Define o estilo do marcador de lista como um círculo */
+}
+
+/* Estilos para elementos com a classe "list" */
+.list {
+    list-style: square; /* Define o estilo do marcador de lista como um quadrado */
+}
+
+/* Estilos para elementos com a classe "light-theme" */
+.light-theme {
+    --fontColor: var(--purple);     /* Define a cor do texto com base na variável --black */
+    --bg: var(--green); /* Define o plano de fundo com base na variável --green */
+    --btnColor: var(--black);
+    --btnBg: var(--white);
+}
+
+/* Estilos para elementos com a classe "dark-theme" */
+.dark-theme {
+    --fontColor: var(--green);     /* Define a cor do texto com base na variável --green */
+    --bg: var(--purple); /* Define o plano de fundo com base na variável --black */
+    --btnColor: var(--white);
+    --btnBg: var(--black);
+}
+
+/* Adicione estas regras para a animação do botão */
+/* Defina a animação de rotação (keyframes) */
+@keyframes rotateOnce {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Adicione regras de estilo ao botão */
+.btn {
+    position: absolute;
+    top: 20px;
+    left: 250px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    color: var(--btnColor);
+    background: var(--btnBg);
+    transition: transform 0.3s; /* Adicione uma transição para a propriedade 'transform' */
+    animation: none; /* Inicialmente, a animação está desativada */
+    cursor: pointer; /* Altere o cursor para um indicador de clique */
+}
+
+/* Quando o mouse está sobre o botão, aplique a escala de aumento */
+.btn:hover {
+    transform: scale(1.2); /* Aumenta o tamanho em 20% */
+}
+
+.btn:focus {outline-style: none;}
