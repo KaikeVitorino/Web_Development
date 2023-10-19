@@ -5,9 +5,16 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Attach to Chrome",
+            "port": 9222,
+            "request": "attach",
+            "type": "chrome",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
             "type": "chrome",
             "request": "launch",
-            "name": "Open index.html",
+            "name": "Open main.js",
             "file": "d:\\Python_Programas\\Curso_Front-end\\Inicial\\index.html"
         }
     ]
