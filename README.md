@@ -1,5 +1,9 @@
 # Curso_Front-end
 Basico do Front-end
+:javascript: JavaScript
+:css: CSS
+:html5: HTML
+
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/Kaike-Vitorino/Curso_Front-end)
 
