@@ -1,6 +1,6 @@
 'use strict';
 
-// Seleciona o botão com a classe .btn e atribui à variável switcher
+// Seleciona o botão com a classe .btn e atribui à variável switcheraaaaaa
 const switcher = document.querySelector('.btn');
 let direcao = 1;
 
@@ -18,7 +18,7 @@ switcher.addEventListener('click', function(){
         this.textContent = "dark";
     }
     else {
-        // Caso contrário, muda o texto do botão para 'light' FODA -SE 
+        // Caso contrário, muda o texto do botão para 'light' FODA -SE
         this.textContent = "light";
     }
     
