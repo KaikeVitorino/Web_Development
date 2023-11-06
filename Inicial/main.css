@@ -21,7 +21,7 @@ body {
     background: var(--bg); /* Define o plano de fundo com base na variável --bg */
 }
 
-/* Estilos para elementos não ordenados (ul) */
+/* Estilos para elementos não ordendos (ul) */
 ul {
     font-family: helvetica; /* Define a fonte para elementos ul como "helvetica" */
 }
