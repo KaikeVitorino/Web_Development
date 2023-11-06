@@ -13,7 +13,7 @@
 /* Estilos aplicados a todos os elementos na página */
 * {
     color: var(--fontColor); /* Define a cor do texto com base na variável --fontColor */
-    font-family: helvetica;  /* Define a fonte para todos os elementos como "helvetica" */
+    font-family: helvetica;  /* Define  fonte para todos os elementos como "helvetica" */
 }
 
 /* Estilos específicos para o corpo da página (body) */
