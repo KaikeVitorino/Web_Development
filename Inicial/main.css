@@ -16,7 +16,7 @@
     font-family: helvetica;  /* Define  fonte para todos os elementos como "helvetica" */
 }
 
-/* Estilos específicos para o corpo da página (body) */
+/* Estilos específicos para o coorpo da página (body) */
 body {
     background: var(--bg); /* Define o plano de fundo com base na variável --bg */
 }
