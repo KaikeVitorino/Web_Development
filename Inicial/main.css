@@ -5,7 +5,7 @@
     --white: #ffffff;     /* Define uma variável --white para a cor branca */
     --black: #000000;     /* Define uma variável --black para a cor preta */
     --fontColor: color; /* Define uma variável --fontColor e a iguala à cor preta (pode ser ajustada) */
-    --bg: color;   /* Define uma variável --bg e a iguala à cor branca (pode ser ajustada) */
+    --bg: color;   /* Define uma variável --bg e a iguala à cor branca (pode ser ajaustada) */
     --btnColor: color;
     --btnBg: color;
 }
