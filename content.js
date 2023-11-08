@@ -1,1 +1,1 @@
-console.log("vydyp")
+console.log("eraog")
