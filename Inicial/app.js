@@ -12,7 +12,7 @@ switcher.addEventListener('click', function(){
     // Obtém a lista de classes do elemento <body>aaaaaaaaaaaa
     var className = document.body.className;
 
-    // Verifica se a classe 'light-theme' está presente
+    // Verifica se a classe 'light-theme' está presenteaaa
     if (className == "light-theme") {
         // Se 'light-theme' estiver presente, muda o texto do botão para 'dark'aaaa
         this.textContent = "dark";
