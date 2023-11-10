@@ -18,7 +18,7 @@ switcher.addEventListener('click', function(){
         this.textContent = "dark";
     }
     else {
-        // Caso contrário, muda o texto do botão para 'light' FODA -SEaaaaaaaaa
+        // Caso contrário, muda o texto do botão para 'light' FODA -SEaaaaaaaaaa
         this.textContent = "light";
     }
     
