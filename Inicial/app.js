@@ -1,6 +1,6 @@
 'use strict';
 
-// Seleciona o botão com a classe .btn e atribui à variável switcheraaaaaaa
+// Seleciona o botão com a classe .btn e atribui à variável switcheraaaaaaaa
 const switcher = document.querySelector('.btn');
 let direcao = 1;
 
