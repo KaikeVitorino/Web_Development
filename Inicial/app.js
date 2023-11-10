@@ -6,7 +6,7 @@ let direcao = 1;
 
 // Adiciona um ouvinte de evento de clique no botãooa
 switcher.addEventListener('click', function(){
-    // Alterna a classe 'dark-theme' no elemento <body>aaaa
+    // Alterna a classe 'dark-theme' no elemento <body>aaaaa
     document.body.classList.toggle('dark-theme');
 
     // Obtém a lista de classes do elemento <body>aaaaaaaaaaaaaaa
