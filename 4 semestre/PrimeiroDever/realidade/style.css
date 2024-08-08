@@ -1,0 +1,25 @@
+#title {
+    color: #45a049;
+    text-align: center;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: 20px auto;
+    border: 1px solid #61dafb;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.footer {
+    bottom: 0;
+    text-align: center;
+    position: fixed;
+}
+
+
+
+
+
