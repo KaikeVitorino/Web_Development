@@ -180,7 +180,7 @@ input {
 .main{
     background-image: url('Images/40de8940-51ab-4b08-bd26-599049d2951f.webp');
     height: 400px;
-    background-size: auto;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -212,9 +212,10 @@ input {
 }
 
 .box{
-    height: auto;
+    height: 400px;
     width: 23%;
     background-color: #ffffff;
+    padding: 20px 0px 15px;
     margin: 8px;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -225,7 +226,7 @@ input {
 }
 
 .box1-img{
-    height: 200px;
+    height: 300px;
     background-size: cover;
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -247,6 +248,7 @@ footer{
   margin-top: 15px;
 }
 .firstpanel{
+  height: 50px;
   background-color: #232F3E;
   color: white;
   align-items: center;
@@ -257,7 +259,7 @@ footer{
 .secondpanel{
   background-color: #FF69B4;
   color: white;
-  height: 30%;
+  height: 400px;
   display: flex;
   justify-content: space-evenly;
 }
@@ -276,7 +278,7 @@ ul a {
   background-color: #333;
   color: white;
   border-top: 0.5px solid #848688;
-  height: 7%;
+  height: 70px;
   display: flex;
   align-items: center;
   justify-content: center;
