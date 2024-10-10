@@ -3,8 +3,8 @@ import './LoginForm.css';
 
 function LoginForm() {
     return (
-        <div className="login-container">
-            <div className="login-box">
+        <div className="register-container">
+            <div className="register-box">
                 <h2>Login</h2>
                 <form>
                     <div className="input-group">

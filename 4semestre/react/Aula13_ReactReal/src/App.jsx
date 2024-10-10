@@ -1,6 +1,7 @@
 import React from 'react';
-import LoginForm from './components/LoginForm.jsx';
+import LoginForm from './login_component/LoginForm.jsx';
 import './App.css';
+import RegisterForm from "./register_component/RegisterForm.jsx";
 
 function App() {
     return (
@@ -11,7 +12,7 @@ function App() {
                     <a href="#contact">Contato</a>
                 </nav>
             </header>
-            <LoginForm />
+            <RegisterForm />
         </div>
     );
 }
