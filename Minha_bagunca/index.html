@@ -1,122 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Monster Fish Sellers</title>
+    <title>Atividade Prova React</title>
 </head>
 <body>
-
-<div id="page-body">
-
-    <div class="container-division">
-
-        <h3>Toma</h3>
-
-        <div class="division-content">
-
-            <div class="text-container">
-
-                <h1>Toma</h1>
-                <p>Toma</p>
-                <button class="section-button">toma</button>
-
-            </div>
-
+    <div class="page">
+        <div class="container">
+            <label for="nome">Nome do aluno</label><input type="text" id="nome">
+            <label for="nota"></label>Nota do aluno<input type="text" id="nota">
+            <button onclick="register()">Registrar</button>
         </div>
 
-    </div>
-
-    <div class="container-division">
-
-        toma
-
-    </div>
-
-    <div class="main-division">
-
-        <header>
-            <div class="header-section">
-                toma
+            <div class="container" id="reprovado-box">
+                <p>Reprovados</p>
+                <hr>
+                <ul id="reprovado-list"></ul>
             </div>
-        </header>
-
-<h1>Hot sellers today</h1>
-
-        <div class="main-content">
-
-            <div class="content-section">
-
-                <h2>toma</h2>
-                <h3>toma</h3>
-                <h2>toma</h2>
-                <button class="buy-button">toma</button>
-                <button class="cart-button">toma</button>
-
+            <div class="container" id="recuperacao-box">
+                <p>Recuperação</p>
+                <hr>
+                <ul id="recuperacao-list"></ul>
             </div>
-            <div class="content-section">
-
-                toma
-
+            <div class="container" id="aprovado-box">
+                <p>Aprovados</p>
+                <hr>
+                <ul id="aprovado-list"></ul>
             </div>
-            <div class="content-section">
-
-                toma
-
-            </div>
-             <div class="content-section">
-
-                toma
-
-            </div>
-            <div class="content-section">
-
-                toma
-
-            </div>
-
-        </div>
-
-        <div class="main-content">
-
-            <div class="content-section">
-
-                toma
-
-            </div>
-            <div class="content-section">
-
-                toma
-
-            </div>
-            <div class="content-section">
-
-                toma
-
-            </div>
-             <div class="content-section">
-
-                toma
-
-            </div>
-            <div class="content-section">
-
-                toma
-
-            </div>
-
-        </div>
-
-        <footer>
-            <div class="footer-section">
-                toma
-            </div>
-        </footer>
-
-    </div>
-
 </div>
-
 </body>
 </html>
+<style>
+    body {
+            background-color: lightgrey;
+            color: black;
+    }
+
+    hr {
+            color: lightgrey;
+            width: 100%;
+    }
+
+    input, button {
+            margin: 10px;
+            padding: 5px;
+            width: 90%;
+    }
+
+    .page {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+    }
+
+    .container {
+            width: 300px;
+            padding: 10px;
+            margin: 10px;
+            background-color: white;
+            border: 1px solid grey;
+    }
+
+</style>
+
+<script>
+    function register() {
+        const name = document.getElementById('nome').value;
+        const number = parseFloat(document.getElementById('nota').value);
+
+        let Info = `${name} - Nota: ${number}`;
+
+        if (number >= 7) {
+            document.getElementById('aprovado-list').innerHTML += `<li>${Info}</li>`;
+        } else if (number >= 5 && number < 7) {
+            document.getElementById('recuperacao-list').innerHTML += `<li>${Info}</li>`;
+        } else {
+            document.getElementById('reprovado-list').innerHTML += `<li>${Info}</li>`;
+            }
+        }
+</script>
